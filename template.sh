@@ -13,3 +13,7 @@ touch research/trials.ipynb
 touch requirements.txt
 
 echo "Directory and files created successfully."
+
+# Temporarily disable SSL verification in Conda
+# conda config --set ssl_verify false
+# conda create -n mediChatBot python=3.11 -y
